@@ -1,0 +1,27 @@
+<ion-content [fullscreen]="true">  
+  <ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="ion-text-center">
+      Perfil
+    </ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/main"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<div class="perfil-info">
+  <ion-icon name="person-circle-outline" class="perfil-icon"></ion-icon>
+  <ul>    
+    <li>Nombre:  {{ nombreUsuario }}</li>
+    <li>Email:  {{ emailUsuario }}</li>
+    <li>Carrera:  {{ carreraUsuario }}</li>
+    <li>Region:  {{ regionUsuario }}</li>
+    <li>Ciudad:  {{ ciudadUsuario }}</li>
+    <li>Comuna:  {{ comunaUsuario }}</li>  
+  </ul>
+</div>
+
+</ion-content>

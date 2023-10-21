@@ -1,0 +1,29 @@
+.perfil-info {
+    text-align: center; 
+  }
+
+  .perfil-info ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .perfil-info li {
+    margin: 20px 0; 
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px; 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    display: flex; 
+    justify-content: space-between; 
+  }
+
+  .perfil-info li span {
+    text-align: left; 
+  }
+
+  .perfil-icon {
+    font-size: 150px; 
+    margin-top: 30px;;
+    margin-bottom: 30px;
+  }

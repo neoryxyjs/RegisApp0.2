@@ -1,0 +1,19 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.box ion-icon {
+  font-size: 250px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.scan-button {
+  font-size: 20px; /* Aumenta el tamaño de fuente del botón */
+  margin-left: 20px;
+  margin-right: 20px;
+}
