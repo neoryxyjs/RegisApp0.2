@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">RegistAppAlf_Ben</string>
+    <string name="title_activity_main">RegistAppAlf_Ben</string>
+    <string name="package_name">cl.benalf.app</string>
+    <string name="custom_url_scheme">cl.benalf.app</string>
+</resources>

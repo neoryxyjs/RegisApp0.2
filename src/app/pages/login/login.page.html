@@ -2,7 +2,7 @@
   <div class="sesion-contend">
     <ion-header>
       <ion-toolbar>
-        <ion-title>Iniciar Sesión</ion-title>
+        <ion-title style="align-items: center;">Iniciar Sesión</ion-title>
         <ion-buttons slot="start">
           <ion-back-button defaultHref="/home"></ion-back-button>
         </ion-buttons>
@@ -29,6 +29,9 @@
     <ion-button class="buttonLogin" (click)="login()" expand="full" color="light">Iniciar Sesión</ion-button>
   </div>
 
-  <p class="ion-text-center">¿Olvidaste tu contraseña? <ion-button (click)="recuperar()">Recuperar</ion-button></p>
+    <div class="item-reset-password-buttom">
+    <p class="ion-text-center">¿Olvidaste tu contraseña? <ion-button (click)="recuperar()">Recuperar</ion-button></p>
+    </div>
+
 </ion-content>
 
